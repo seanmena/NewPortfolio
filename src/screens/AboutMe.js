@@ -11,8 +11,8 @@ export default function AboutMe() {
         src={process.env.PUBLIC_URL + "/img/Sean.jpg"}
       ></img>
       <p className="a-text">
-        Hello, my name is Sean, I am a Full-Stack Software Engineer with a
-        passion for creating original, responsive, and impressive full-stack
+        Hello, my name is Sean, I am a Full-Stack Web Developer with a passion
+        for creating original, responsive, and impressive full-stack
         applications. To bring value to my professional endeavors, I spend the
         majority of my free time educating myself on development technologies
         and best practices. I regularly set aside time to keep up with the ever
