@@ -46,7 +46,7 @@ export default function PjFour() {
         <img
           className="img-1"
           alt="Kipper Website"
-          src={process.env.PUBLIC_URL + "/img/EmplManage.png"}
+          src={process.env.PUBLIC_URL + "/img/employeeShots.png"}
         />
       </div>
     </div>

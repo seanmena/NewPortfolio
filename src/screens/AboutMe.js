@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import "./AboutMe.css";
 
 export default function AboutMe() {
@@ -30,6 +31,10 @@ export default function AboutMe() {
         my ability to work in a team, meet goals, and promptly learn any
         language. I am also Fluent in both Spanish and English.
       </p>
+
+      <div className="foot">
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -5,11 +5,11 @@ export const ProjectOne = ({ children, type, onClick }) => {
   return (
     <Link to={"/projectone"} className="ProjectOne">
       <div className={`ProjectOne`} onClick={onClick} type={type}>
-        <h1 className="p1-txt">Ecommerce Web Site</h1>
+        <h1 className="p1-txt">Sleepy Angler</h1>
         <p className="p1-sub">
-          A MERN application built with React Redux, MongoDB, Css, JavaScript,
-          Node.js Express.js, and Paypal/Stripe Apis. With both Front-End and
-          Back-end this is a Full-Stack application
+          A fly fish guide's website. A full-stack application built with React,
+          CSS, and Firebase. It uses CRUD API routing and an auth system. The
+          admin can manage a gallery, contact forms, and blog posts.
         </p>
       </div>
     </Link>
@@ -20,11 +20,11 @@ export const ProjectTwo = ({ children, type, onClick }) => {
   return (
     <Link to={"/projecttwo"} className="ProjectTwo">
       <div className={`ProjectTwo`} onClick={onClick}>
-        <h1 className="p2-txt">React Portfolio</h1>
+        <h1 className="p2-txt">Book Club App</h1>
         <p className="p2-sub">
-          A portfolio/landing page. Wireframe created in Adobe Illustrator by
-          graphic designer. Brought to life with React, JavaScript and CSS.
-          Hosted through AWS, This is a Front-End application.
+          A book tracking website. It is a full-stack application using React,
+          AXIOS, CSS, and Firebase. It has an auth system and uses CRUD and a
+          RESTful APi. a RESTful API.
         </p>
       </div>
     </Link>
@@ -35,12 +35,11 @@ export const ProjectThree = ({ children, type, onClick }) => {
   return (
     <Link to={"/projectthree"} className="ProjectThree">
       <div className={`ProjectThree`} onClick={onClick} type={type}>
-        <h1 className="p3-txt">RESTful Api</h1>
+        <h1 className="p3-txt">Landing Page</h1>
         <p className="p3-sub">
-          A collberative Project, Emotional Media Generator uses jQuery to call
-          upon third party Api's to retrieve data from the DOM based on user
-          input. Styled with the Bulma framework, this is a Front-End
-          application.
+          A simple, elegant landing page. Built with React and CSS, this was a
+          front-end mentor challenge. I was provided the assets and prototype to
+          reacreate.
         </p>
       </div>
     </Link>

@@ -6,7 +6,7 @@ import "./PjThree.css";
 export default function PjThree() {
   return (
     <div className="p3-div">
-      <h1 className="head">Third Party Api Application (Generator)</h1>
+      <h1 className="head">Front-end Mentor Code Challenge</h1>
       <div className="links">
         <ButtonEmg> Repository</ButtonEmg>
         <ButtonEmg2> Live Demo</ButtonEmg2>
@@ -14,43 +14,35 @@ export default function PjThree() {
 
       <div className="what-issue">
         <h1 className="what-head">Tech Used:</h1>
-        <p className="what-text">
-          FRONT-END: HTML, Css, JavaScript, Bulma, jQuery, Local Storage.
-          <br></br>
-          APIS: Giphy, Pexels,
-          <br></br>
-          Applications: VsCode, Adobe Illustrator.
-        </p>
+        <p className="what-text">React & CSS.</p>
       </div>
 
       <div className="issue">
         <h1 className="issue-text">App Overview:</h1>
         <p className="prob-text">
-          When I load the page, it introduces the app and displays buttons for
-          GIFS, PHOTOS and RANDOM selections. When the GIFS or PHOTOS button is
-          selected, Then I am presented with a list of emotions to choose from.
-          When I select an emotion, Then I am presented with 10 GIFS or PHOTOS.
-          When I click on the Title, Then a new tab opens to the Pexels or Giphy
-          website. When I click on the Heart Icon the image is added to
-          FAVORITES. When I click on an emotion, Then I am presented with 10
-          more GIFS or PHOTOS. When I click on the logo in the navbar, Then the
-          splash page is displayed. When I click on the FAVORITES in the navbar,
-          Then I am presented with the images I have selected, OR a message that
-          says I have not selected any favorites. When I click on the Heart Icon
-          the image is removed from FAVORITES.
+          Front end mentor gave me the prototype and assets to create a pixel
+          perfect version of their News Page. It doesn't have any real function
+          other than being a landing page with animations.
         </p>
       </div>
 
       <div className="solution-div">
         <h1 className="sol-head">The Process</h1>
         <p className="sol-text">
-          This application was my first development with a team. It is a simple
-          third party Restful Api based application, very fun to make. I was in
-          charge of the front-end as well as the giphy api. I learned a lot
-          about Git branching, issues, pull-requests, and merge conflicts. I
-          created this app to practice fetching Api data since it is a skill
-          used in almost every web application, as well as working in a team
-          with different rolls.
+          I used React and CSS to create this project. I created a grid and told
+          the components where they needed to go. I also used flexbox to create
+          the navbar. I used Adobe software to find the exact colors and
+          recreated it as it was given to me.
+        </p>
+      </div>
+
+      <div className="chal-div">
+        <h1 className="sol-head">Challenges</h1>
+        <p className="sol-text">
+          Creating a complex design without using any CSS frameworks was a
+          challenge. I've used bootstrap a lot and I hadn't jumped fully into
+          vanilla CSS grid before this project. I learned a lot about CSS and
+          how to build a responsive website from this project.
         </p>
       </div>
 
@@ -58,7 +50,7 @@ export default function PjThree() {
         <img
           className="img-1"
           alt="Kipper Website"
-          src={process.env.PUBLIC_URL + "/img/emg.png"}
+          src={process.env.PUBLIC_URL + "/img/newsshots.png"}
         />
       </div>
     </div>

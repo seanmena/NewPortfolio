@@ -10,7 +10,7 @@ import PjOne from "./screens/PjOne";
 import PjTwo from "./screens/PjTwo";
 import PjThree from "./screens/PjThree";
 import PjFour from "./screens/PjFour";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   console.log("test");
@@ -28,7 +28,6 @@ function App() {
           <Route path="/projectthree" component={PjThree} />
           <Route path="/projectfour" component={PjFour} />
         </Switch>
-        <Footer className="ft" />
       </Router>
     </>
   );

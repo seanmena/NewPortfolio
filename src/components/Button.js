@@ -28,7 +28,7 @@ export const ButtonTwo = ({ children, type, onClick }) => {
 export const ButtonKipper = ({ children, type, onClick }) => {
   return (
     <Link
-      to={{ pathname: "https://github.com/seanmena/Kipper" }}
+      to={{ pathname: "https://github.com/seanmena/sleepyangler" }}
       target="_blank"
     >
       <button className={`btn3`} onClick={onClick} type={type}>
@@ -40,8 +40,18 @@ export const ButtonKipper = ({ children, type, onClick }) => {
 
 export const ButtonKipper2 = ({ children, type, onClick }) => {
   return (
+    <Link to={{ pathname: "https://sleepyangler.com/" }} target="_blank">
+      <button className={`btn3`} onClick={onClick} type={type}>
+        {children}
+      </button>
+    </Link>
+  );
+};
+
+export const ButtonKipper3 = ({ children, type, onClick }) => {
+  return (
     <Link
-      to={{ pathname: "https://kipper-snack-app.herokuapp.com/" }}
+      to={{ pathname: "https://www.youtube.com/watch?v=uIvjJZ4A66c&t=29s" }}
       target="_blank"
     >
       <button className={`btn3`} onClick={onClick} type={type}>

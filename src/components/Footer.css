@@ -5,9 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
-  position: sticky;
+  margin-top: 30%;
+  position: absolute;
+  width: 100%;
   z-index: 999;
+  bottom: -20;
 }
 
 .social-media-wrap {

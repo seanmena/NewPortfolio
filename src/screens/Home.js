@@ -7,6 +7,7 @@ import {
   ProjectThree,
   ProjectTwo,
 } from "../components/Projects";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -15,7 +16,7 @@ function Home() {
         <h1 id="SeanMena" className="title">
           Sean Mena
         </h1>
-        <h4 className="subtitle">Full-Stack Web Developer</h4>
+        <h4 className="subtitle">Front End Web Developer</h4>
         <p className="heading">
           When design meets Development. Passionate Full Stack Web Developer--
           with the skills and tools to bring value to your team.
@@ -30,16 +31,13 @@ function Home() {
           </ButtonTwo>
         </div>
       </div>
-
       <h1 className="p-title">Projects</h1>
-
       <div className="box-container">
         <ProjectOne></ProjectOne>
         <ProjectTwo></ProjectTwo>
         <ProjectThree></ProjectThree>
         <ProjectFour></ProjectFour>
       </div>
-
       <div className="contact-container">
         <h1 className="c-title">Contact</h1>
         <p className="email">
@@ -48,6 +46,9 @@ function Home() {
           </a>
         </p>
         <p className="num">(801) 867 - 4854</p>
+      </div>
+      <div className="foot">
+        <Footer />
       </div>
     </div>
   );

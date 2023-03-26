@@ -1,64 +1,62 @@
 import React from "react";
 // eslint-disable-next-line
-import { Button, ButtonKipper, ButtonKipper2 } from "../components/Button";
+import {
+  // Button,
+  ButtonKipper,
+  ButtonKipper2,
+  ButtonKipper3,
+} from "../components/Button";
 import "./PjOne.css";
 
 export default function PjOne() {
   return (
     <div className="p1-div">
-      <h1 className="head">Full-Stack E-Commerce Website</h1>
+      <h1 className="head">Full-Stack Fly Fish Website</h1>
       <div className="links">
-        <ButtonKipper> Repository</ButtonKipper>
-        <ButtonKipper2> Live Demo</ButtonKipper2>
+        <ButtonKipper> Repository </ButtonKipper>
+        <ButtonKipper2> Website </ButtonKipper2>
+        <ButtonKipper3> Demo Video </ButtonKipper3>
       </div>
 
       <div className="what-issue">
         <h1 className="what-head">Tech Used:</h1>
         <p className="what-text">
-          MERN STACK --
+          React, Firebase, Javascript, and CSS were used as the main
+          technologies.
           <br></br>
-          MongoDB(Mongoose), Express.js, React(React-Redux), and node.js were
-          used as the main technologies.
+          FRONT-END: React, HTML, CSS, JavaScript
           <br></br>
-          FRONT-END: React, HTML, Css, JavaScript
+          BACK-END: Firebase
           <br></br>
-          APIS: Paypal, Stripe, Google Maps, Bcrypt, JsonWebTokens. (CRUD and
-          Restful)
-          <br></br>
-          BACK-END: MongoDB Atlas, Node.js, Express.js, Mongoose.
-          <br></br>
-          Applications: VsCode, Postman, MongoAtlas, Adobe Illustrator.
+          Applications: VsCode, Figma, Adobe Illustrator, and Adobe Photoshop
         </p>
       </div>
 
       <div className="issue">
         <h1 className="issue-text">App Overview:</h1>
         <p className="prob-text">
-          Kipper E-Commerce Website is an app to purchase and sell clothing. It
-          has an auth system that seperates "Admins" and "Users". Users may
-          browse the store, leave reviews, and purchase items through Paypal or
-          Stripe card processing. Admins, in addition to the User funcitons, may
-          create products, categories, track inventory, and manage shipping.
-          When creating a product Admins may add a local image from their
-          machine along with their pricing, and inventory. There are multiple
-          organized tabs to show orders thatt have been processed and their
-          shipping status.
+          A fly fish website for a fishing guide. The Admin may add and delete
+          blog posts, add and delete images to their gallery, and view/delete
+          submitted contact forms.
         </p>
       </div>
 
       <div className="solution-div">
         <h1 className="sol-head">The Process</h1>
         <p className="sol-text">
-          Used React and React-Redux to manipulate the UI state to handle event
-          listeners and other state managements. Utilized Node.js and Mongoose
-          for API routing to take user data and store into DB; as well as CRUD
-          routing to make a good flow through the website. Used MongoDB cluster
-          to hold and load data to the application rather than relying heavily
-          on the DOM with React. Used CSS to style all things independently-- no
-          framework in this project. This was my first major React project, I
-          learned how to utilize models, routers, constants, and reducers which
-          helped me to understand the feautures of reacts component based syntax
-          for efficient coding in larger-scaled projects.
+          I designed multiple prototypes in Figma. The client chose their
+          favorite one. I built the UI with React and CSS. I used Firebase for
+          the Database, and authentication system.
+        </p>
+      </div>
+
+      <div className="chal-div">
+        <h1 className="sol-head">Challenges</h1>
+        <p className="sol-text">
+          The auth system was definitely the biggest challenge for me. Using
+          protected routes, and rendering elements based on authorization status
+          took a lot of research. I learned a lot about auth, routing, and CRUD
+          from this project.
         </p>
       </div>
 
@@ -66,7 +64,7 @@ export default function PjOne() {
         <img
           className="img-1"
           alt="Kipper Website"
-          src={process.env.PUBLIC_URL + "/img/store.png"}
+          src={process.env.PUBLIC_URL + "/img/sleepyshots.png"}
         />
       </div>
     </div>

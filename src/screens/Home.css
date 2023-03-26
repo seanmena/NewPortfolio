@@ -254,6 +254,11 @@
   cursor: pointer;
 }
 
+.foot {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 850px) {
   .container {
     width: 100%;
@@ -300,7 +305,7 @@
 
   .box-container {
     display: block;
-    grid-template-columns: [col-1] 50% [col-2] 50%;
+    grid-template-columns: [col-1] 30% [col-2] 30% [col-3] 30%;
     grid-gap: 5px;
     grid-auto-rows: 50px;
     /* grid-template-rows: [r1] 50px [r2] 50px [r3] 50px [r4] 50px [r5] 50px [r6] 50px [r7] 50px; */
