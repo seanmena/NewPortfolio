@@ -16,10 +16,13 @@ function Home() {
         <h1 id="SeanMena" className="title">
           Sean Mena
         </h1>
-        <h4 className="subtitle">Front End Web Developer</h4>
+        <h4 className="subtitle">Full Stack Web Developer</h4>
         <p className="heading">
-          When design meets Development. Passionate Full Stack Web Developer--
-          with the skills and tools to bring value to your team.
+          Passionate developer, always learning.
+          <br></br>
+          Proficient in React, JavaScript, CSS, HTML, Node.js, MySQL, NoSQL,
+          RESTful/CRUD API, Bootstrap, jQuery, Photoshoop, Illustrator, and
+          Figma
         </p>
 
         <div className="btns">

@@ -20,7 +20,7 @@ export const ProjectTwo = ({ children, type, onClick }) => {
   return (
     <Link to={"/projecttwo"} className="ProjectTwo">
       <div className={`ProjectTwo`} onClick={onClick}>
-        <h1 className="p2-txt">Book Club App</h1>
+        <h1 className="p2-txt">Book Club</h1>
         <p className="p2-sub">
           A book tracking website. It is a full-stack application using React,
           AXIOS, CSS, and Firebase. It has an auth system and uses CRUD and a

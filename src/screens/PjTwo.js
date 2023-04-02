@@ -1,6 +1,6 @@
 import React from "react";
 // eslint-disable-next-line
-import { Button, ButtonReact } from "../components/Button";
+import { Button, ButtonReact, ButtonReact2 } from "../components/Button";
 import "./PjTwo.css";
 
 export default function PjTwo() {
@@ -9,7 +9,7 @@ export default function PjTwo() {
       <h1 className="head">Book Tracking App</h1>
       <div className="links">
         <ButtonReact> Repository</ButtonReact>
-        <ButtonReact> Live Demo</ButtonReact>
+        <ButtonReact2> Live Demo</ButtonReact2>
       </div>
 
       <div className="what-issue">

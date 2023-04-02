@@ -64,7 +64,7 @@ export const ButtonKipper3 = ({ children, type, onClick }) => {
 export const ButtonReact = ({ children, type, onClick }) => {
   return (
     <Link
-      to={{ pathname: "https://github.com/seanmena/myportfolio" }}
+      to={{ pathname: "https://github.com/seanmena/Books" }}
       target="_blank"
     >
       <button className={`btn3`} onClick={onClick} type={type}>
@@ -75,7 +75,10 @@ export const ButtonReact = ({ children, type, onClick }) => {
 };
 export const ButtonReact2 = ({ children, type, onClick }) => {
   return (
-    <Link to={"/home"} target="_blank">
+    <Link
+      to={{ pathname: "https://book-club-9650b.firebaseapp.com/" }}
+      target="_blank"
+    >
       <button className={`btn3`} onClick={onClick} type={type}>
         {children}
       </button>
@@ -87,7 +90,7 @@ export const ButtonEmg = ({ children, type, onClick }) => {
   return (
     <Link
       to={{
-        pathname: "https://github.com/MizTangerine/Emotional_Media_Generator",
+        pathname: "https://github.com/seanmena/LandingPage",
       }}
       target="_blank"
     >
@@ -102,7 +105,7 @@ export const ButtonEmg2 = ({ children, type, onClick }) => {
   return (
     <Link
       to={{
-        pathname: "https://miztangerine.github.io/Emotional_Media_Generator/",
+        pathname: "https://seanmena.github.io/LandingPage/",
       }}
       target="_blank"
     >
